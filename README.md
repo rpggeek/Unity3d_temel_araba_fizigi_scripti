@@ -21,7 +21,7 @@ Brawo ! Artık nispeten gerçekçi bir araba deneyimine sahipsiniz,daha gerçek�
 
 ## English
 
-The basic car physics,it includes two script file.The first one for realistic driving experience and the another one for realistic suspension simulation.
+The basic car physics,it includes two script file.The first one is for realistic driving experience and the another one is for realistic suspension simulation.
 Before using the script,what you need to is a 3D car object or any 3D object that you want to use.
 What you need to do before using this script thoroughly is that,to add wheels and then integration of WheelColliders into wheels.
 We're add a rigidbody component to our 3D parent object,thereafter add the two script file to on it.
