@@ -23,7 +23,7 @@ public class suspension : MonoBehaviour
         {
             Quaternion quat;
             Vector3 pos;
-            colliders[sayac].GetWorldPose(out pos, out quat);
+            colliders[counter].GetWorldPose(out pos, out quat);
             wheel.transform.position = pos;
             wheel.transform.rotation = quat;
             if (counter < 3)
