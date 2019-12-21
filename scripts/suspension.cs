@@ -7,7 +7,7 @@ public class suspension : MonoBehaviour
     public List<GameObject> wheels;
     public List<WheelCollider> colliders;
     public float ayarla = 0f;
-    private int sayac = 0;
+    private int counter = 0;
 
     void Start()
     {
@@ -19,20 +19,20 @@ public class suspension : MonoBehaviour
 
     void _suspension()
     {
-        foreach(GameObject tekerlek in wheels)
+        foreach(GameObject wheel in wheels)
         {
             Quaternion quat;
             Vector3 pos;
             colliders[sayac].GetWorldPose(out pos, out quat);
-            tekerlek.transform.position = pos;
-            tekerlek.transform.rotation = quat;
-            if (sayac < 3)
+            wheel.transform.position = pos;
+            wheel.transform.rotation = quat;
+            if (counter < 3)
             {
-                sayac++;
+                counter++;
             }
             else
             {
-                sayac = 0;
+                counter = 0;
             }
         }
     }
