@@ -1,5 +1,5 @@
 # Unity3d-temel-araba-fizi-i-scripti
-Turkish
+Türkçe
 
 Temel araba fiziği,iki adet script dosyası içererir.Biri araba sürüş deneyimi için,bir diğeri gerçekçi bir süspansiyon simülasyonu için.
 Scripti kullanmadan önce,ihtiyacınız olan 3D bir araç,ve ya her hangi bir nesne olabilir.Yapmanız gereken,Tekerlerin eklenmesi,ardından WheelCollider lerin tekerleklere entegrasyonu.3D ana objemize rigidbody ekliyoruz,bulunan iki scripti ana objemize ekliyoruz.
