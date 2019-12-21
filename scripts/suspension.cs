@@ -6,7 +6,6 @@ public class suspension : MonoBehaviour
 {
     public List<GameObject> wheels;
     public List<WheelCollider> colliders;
-    public float ayarla = 0f;
     private int counter = 0;
 
     void Start()
