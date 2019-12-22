@@ -1,4 +1,4 @@
-# Unity3d-temel-araba-fizi-i-scripti
+# Unity3d-temel-araba-fizigi-scripti
 ## Türkçe
 
 Temel araba fiziği,iki adet script dosyası içerir.Biri araba sürüş deneyimi için,bir diğeri gerçekçi bir süspansiyon simülasyonu için.
