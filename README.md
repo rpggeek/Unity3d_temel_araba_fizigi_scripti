@@ -1,4 +1,4 @@
-# Unity3d-temel-araba-fizigi-scripti
+# Unity3D-temel-araba-fizigi-scripti- the script of Unity3D basic car physics system
 ## Türkçe
 
 Temel araba fiziği,iki adet script dosyası içerir.Biri araba sürüş deneyimi için,bir diğeri gerçekçi bir süspansiyon simülasyonu için.
